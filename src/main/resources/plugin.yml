@@ -1,0 +1,29 @@
+name: BotPractice
+version: b.25.0
+main: allenme.top.botpractice.BotPractice
+api-version: 1.8
+depend: [Citizens]
+author: allenfortw
+description: Bot practice plugin using Citizens API
+
+commands:
+  spawnbot:
+    description: 生成練習機器人
+    usage: /spawnbot <arena_name>
+    aliases: [bot, sb]
+  removebot:
+    description: 移除練習機器人
+    usage: /removebot
+    aliases: [rb]
+  setarena:
+    description: 設置競技場位置為當前位置
+    usage: /setarena <arena_name>
+    aliases: [sa]
+  startgame:
+    description: 開始遊戲（機器人開始追擊）
+    usage: /startgame
+    aliases: [start]
+  stopgame:
+    description: 停止遊戲（機器人停止追擊）
+    usage: /stopgame
+    aliases: [stop]
